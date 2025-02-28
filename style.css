@@ -1,0 +1,119 @@
+
+body {
+    font-family: sans-serif;
+    color: black;
+    background: white;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    width: 1000px;
+    margin: auto;
+    padding: 20px;
+}
+
+
+header {
+    background: white;
+    padding: 10px;
+    border-bottom: 1px solid gray;
+    text-align: center;
+}
+
+.logo a {
+    font-size: 22px;
+    font-weight: bold;
+    color: black;
+    text-decoration: none;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+}
+
+nav a {
+    text-decoration: none;
+    color: black;
+}
+
+.contact-info a {
+    color: blue;
+}
+
+
+.hero {
+    background: darkgray;
+    color: white;
+    text-align: center;
+    padding: 50px 0;
+}
+
+.hero h1 {
+    font-size: 30px;
+}
+
+.cta-button {
+    background: blue;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+}
+
+
+.services {
+    text-align: center;
+    padding: 40px 0;
+}
+
+.services ul {
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+}
+
+
+.portfolio {
+    background: lightgray;
+    text-align: center;
+    padding: 40px 0;
+}
+
+.portfolio ul {
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+}
+
+.portfolio img {
+    width: 250px;
+}
+
+
+.team {
+    text-align: center;
+    padding: 40px 0;
+}
+
+.team ul {
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+}
+
+.team img {
+    width: 150px;
+}
+
+
+footer {
+    background: black;
+    color: white;
+    text-align: center;
+    padding: 15px;
+}
